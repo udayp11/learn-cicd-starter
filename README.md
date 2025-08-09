@@ -1,3 +1,5 @@
+
+![Badge](https://github.com/udayp11/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
 Uday's version of Boot.dev's Notely app.
 
 # learn-cicd-starter (Notely)
