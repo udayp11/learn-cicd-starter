@@ -21,7 +21,7 @@ jobs:
       - name: Unit tests
         run: go test -cover ./...
 
-  FormattingTests:
+  formattingTests:
     name: FormattingTests
     runs-on: ubuntu-latest
 
@@ -36,3 +36,4 @@ jobs:
 
       - name: Style
         run: test -z $(go fmt ./...)  
+        run: go test -cover ./...
